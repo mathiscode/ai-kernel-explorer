@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ai-kernel-explorer"
+version = "0.1.1"
+description = "Explore the Linux kernel source code with AI-generated summaries"
+authors = ["mathiscode <code@mathis.network>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mathiscode/ai-kernel-explorer"
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: System :: Operating System Kernels",
+  "Topic :: Utilities"
+]
+
+[tool.poetry.scripts]
+ai-kernel-explorer = "ai_kernel_explorer.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.38.0"
+textual = "^0.75.1"
+toml = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+Screen {
+  layout: horizontal;
+}
+
+DirectoryTree {
+  width: 35;
+  background: $background;
+}
+
+MarkdownTableOfContents {
+  max-width: 40;
+}
