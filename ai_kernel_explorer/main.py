@@ -1,4 +1,5 @@
 import argparse
+import importlib.metadata
 import os
 import toml
 
@@ -10,8 +11,7 @@ from textual.widgets import (DirectoryTree, Footer, Header, Markdown, MarkdownVi
 
 from ai_kernel_explorer.prompt import system_prompt
 
-with open("pyproject.toml", encoding="utf-8") as pyproject:
-    version = toml.load(pyproject)["tool"]["poetry"]["version"]
+version = importlib.metadata.version("ai-kernel-explorer")
 
 parser = argparse.ArgumentParser(
     prog="ai-kernel-explorer",

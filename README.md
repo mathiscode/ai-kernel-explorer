@@ -1,8 +1,8 @@
 # AI Kernel Explorer
 
-[![PyPI](https://img.shields.io/pypi/v/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
+[![PyPI](https://img.shields.io/pypi/v/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
-[![PyPI - License](https://img.shields.io/pypi/l/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
+[![PyPI - License](https://img.shields.io/pypi/l/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
 
 ## Explore the Linux kernel source code with AI-generated summaries
