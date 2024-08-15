@@ -9,11 +9,15 @@
 
 The Linux kernel is a large and complex codebase, with over 30 million lines of code. Understanding the codebase can be challenging, especially for newcomers. To help developers navigate the codebase more easily, this is a lightweight tool that uses GPT-4o to generate summaries of the Linux kernel source code as you explore.
 
+![screenshot](https://raw.githubusercontent.com/mathiscode/ai-kernel-explorer/main/assets/screenshot1.png)
+
 ## Installation
 
 ```bash
 pip install ai-kernel-explorer # or ideally pipx install ai-kernel-explorer
 ```
+
+Ensure your OpenAI API key is set in the `OPENAI_API_KEY` environment variable or --api-key option.
 
 ```text
 usage: ai-kernel-explorer [-h] [--api-key API_KEY] [--cache CACHE] [--model MODEL] [--version] [root]
