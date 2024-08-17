@@ -5,6 +5,8 @@
 [![PyPI - License](https://img.shields.io/pypi/l/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
 
+Made with ❤️ by [Jay Mathis](https://github.com/mathiscode)
+
 ## Explore the Linux kernel source code with AI-generated summaries
 
 The Linux kernel is a large and complex codebase, with over 30 million lines of code. Understanding the codebase can be challenging, especially for newcomers. To help developers navigate the codebase more easily, this is a lightweight tool that uses GPT-4o to generate summaries of the Linux kernel source code as you explore.
