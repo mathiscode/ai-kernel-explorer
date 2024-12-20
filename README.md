@@ -4,6 +4,7 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
 [![PyPI - License](https://img.shields.io/pypi/l/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
+[![Sponsors](https://img.shields.io/github/sponsors/mathiscode?color=red&logo=github&label=💖%20sponsors)](https://github.com/sponsors/mathiscode)
 
 Made with ❤️ by [Jay Mathis](https://github.com/mathiscode)
 
